@@ -2,6 +2,15 @@
 ## Introduction
 This repository contains the implementation of my master thesis "[Deep Learning for 3D Super-Resolution](https://www.researchgate.net/publication/354708583_Deep_Learning_for_3D_Super-Resolution)" in which a 3D CNN integrated in a Cycle-GAN architecture is used to perform super resolution on 3D models from CT/MRI scans.
 
+## Prerequisites
+Use the command lines to create a conda environment and install necessary packages:
+```
+conda create -n "cycle-gan" python=3.8
+```
+```
+pip install -r reqirements.txt
+```
+
 ## Data Format Requirements
 The image scans have to be in the 'nii' format and be placed in the 'data' directory where the program will recursively search through all folders there to gather all the images available.
 
